@@ -1,3 +1,6 @@
+# ========== Reads DOIs from CSV file and generates bib files =========== 
+
+
 import csv
 import time
 import urllib.parse
@@ -7,7 +10,7 @@ HEADERS = {"User-Agent": "ZoteroBatchImporter/1.0 (mailto:user@example.com)"}
 
 # Read titles from your CSV file
 titles = []
-with open("/Users/sushmitakhan/Desktop/Research/genAI Privacy/unstructured.csv", "r", encoding="utf-8-sig") as f:
+with open(" ", "r", encoding="utf-8-sig") as f:
     reader = csv.reader(f)
     for row in reader:
         if row and row[0].strip():
